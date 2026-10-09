@@ -1,0 +1,13 @@
+services:
+  wichtelzauber:
+    build: .
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:8000:8000"
+    environment:
+      WZ_DATABASE: /app/data/wichtelzauber.sqlite3
+      WZ_SECURE_COOKIES: ${WZ_SECURE_COOKIES:-0}
+    volumes:
+      - wichtelzauber_data:/app/data
+volumes:
+  wichtelzauber_data:

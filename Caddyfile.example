@@ -1,0 +1,6 @@
+# Ersetze die Beispiel-Domain durch deine eigene Domain.
+# HTTPS-Zertifikat und Domainerreichbarkeit müssen vorher eingerichtet sein.
+wichteln.example.org {
+    reverse_proxy 127.0.0.1:8000
+    encode zstd gzip
+}

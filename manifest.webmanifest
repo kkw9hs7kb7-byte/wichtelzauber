@@ -1,0 +1,7 @@
+{
+ "name":"Wichtelzauber – Familienwichteln",
+ "short_name":"Wichtelzauber",
+ "description":"Deine geheime Wichtelrunde, jederzeit griffbereit.",
+ "start_url":"/","scope":"/","display":"standalone","background_color":"#f8f4eb","theme_color":"#16392d",
+ "icons":[{"src":"/static/icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}]
+}
